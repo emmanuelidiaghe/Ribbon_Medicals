@@ -2,11 +2,6 @@ import React, { Component } from 'react';
 import hiv_logo from '../resources/hiv_logo.png';
 import lungs_logo from '../resources/lungs.png';
 import pressure_logo from '../resources/pressure.jpg';
-import home_logo from '../resources/home.png';
-import activity_logo from '../resources/activity.png';
-import wallet_logo from '../resources/wallet.png';
-import market_logo from '../resources/market.png';
-import earn_logo from '../resources/earn.png';
 
 class Home extends Component {
     constructor(props) {
@@ -77,31 +72,6 @@ class Home extends Component {
                             <img src={pressure_logo} className="mt0 w2 h2" />
                             <h4 className="mt1 mb0">Blood Pressure Check</h4>
                             <h4 className="mt1 mb0">A10</h4>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div className="pa3 bg-moon-gray"></div>
-                    <div className="flex justify-around center mt2">
-                        <div className="">
-                            <img src={home_logo} className="w2 h2"/>
-                            <h4 className="mt0">Home</h4>
-                        </div>
-                        <div className="">
-                            <img src={activity_logo} className="w2 h2"/>
-                            <h4 className="mt0">Activity</h4>
-                        </div>
-                        <div className="">
-                            <img src={wallet_logo} className="w2 h2"/>
-                            <h4 className="mt0">Wallet</h4>
-                        </div>
-                        <div className="">
-                            <img src={market_logo} className="w2 h2"/>
-                            <h4 className="mt0">Market</h4>
-                        </div>
-                        <div className="">
-                            <img src={earn_logo} className="w2 h2"/>
-                            <h4 className="mt0">Earn</h4>
                         </div>
                     </div>
                 </div>
