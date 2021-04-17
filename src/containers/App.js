@@ -61,23 +61,23 @@ class App extends Component {
         <div className="">
           <div className="pa3 bg-moon-gray"></div>
             <div className="flex justify-around center mt2">
-              <div className="" onClick={this.showHome}>
+              <div className="center tc" onClick={this.showHome}>
                 <img src={home_logo} className="w2 h2"/>
                 <h4 className="mt0">Home</h4>
               </div>
-              <div className="" onClick={this.showActivity}>
+              <div className="center tc" onClick={this.showActivity}>
                 <img src={activity_logo} className="w2 h2"/>
                 <h4 className="mt0">Activity</h4>
               </div>
-              <div className="" onClick={this.showWallet}>
+              <div className="center tc" onClick={this.showWallet}>
                 <img src={wallet_logo} className="w2 h2"/>
                 <h4 className="mt0">Wallet</h4>
               </div>
-              <div className="" onClick={this.showMarket}>
+              <div className="center tc" onClick={this.showMarket}>
                 <img src={market_logo} className="w2 h2"/>
                 <h4 className="mt0">Market</h4>
               </div>
-              <div className="" onClick={this.showEarn}>
+              <div className="center tc" onClick={this.showEarn}>
                 <img src={earn_logo} className="w2 h2"/>
                 <h4 className="mt0">Earn</h4>
               </div>
