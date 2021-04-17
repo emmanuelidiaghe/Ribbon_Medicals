@@ -40,7 +40,7 @@ class Home extends Component {
                     <div className="mt2 mb2 ml2">
                         <select name="currency"
                             id="currencyID"
-                            value=""
+                            value="currency"
                             onChange=""
                             className=""
                             >
