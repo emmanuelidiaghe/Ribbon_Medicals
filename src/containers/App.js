@@ -1,49 +1,82 @@
 import React, { Component } from 'react';
 import tachyons from 'tachyons';
-import logo from '../resources/logo.svg';
-import user from '../resources/profile.jpg';
-import home_logo from '../resources/home.png';
-import activity_logo from '../resources/activity.png';
-import wallet_logo from '../resources/wallet.png';
-import market_logo from '../resources/market.png';
-import earn_logo from '../resources/earn.png';
-import notification from '../resources/notification.png';
 import './App.css';
-import Home from '../components/Home';
-import Activity from '../components/Activity';
-import Wallet from '../components/Wallet';
-import Earn from '../components/Earn';
-import Market from '../components/Market';
+import { Home, Activity, Wallet, Earn, Market, logo, user, notification, home_logo, activity_logo, wallet_logo, market_logo, earn_logo } from '../index';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      show: 'home'
+      show: 'home',
+      clickHome: true,
+      clickActivity: false,
+      clickWallet: false,
+      clickEarn: false,
+      clickMarket: false
     }
   }
 
   showHome =() => {
-    this.setState({ show: 'home' });
+    this.setState({ 
+      show: 'home',
+      clickHome: true,
+      clickActivity: false,
+      clickWallet: false,
+      clickEarn: false,
+      clickMarket: false
+    });
   }
 
   showActivity = () => {
-    this.setState({ show: 'activity' });
+    this.setState({ 
+      show: 'activity',
+      clickActivity: true,
+      clickHome: false,
+      clickWallet: false,
+      clickEarn: false,
+      clickMarket: false
+     });
   }
 
   showEarn = () => {
-    this.setState({ show: 'earn' });
+    this.setState({ 
+      show: 'earn',
+      clickEarn: true,
+      clickActivity: false,
+      clickWallet: false,
+      clickHome: false,
+      clickMarket: false
+    });
   }
 
   showMarket = () => {
-    this.setState({ show: 'market' });
+    this.setState({ 
+      show: 'market',
+      clickMarket: true,
+      clickActivity: false,
+      clickWallet: false,
+      clickEarn: false,
+      clickHome: false
+    });
   }
 
   showWallet = () => {
-    this.setState({ show: 'wallet' });
+    this.setState({ 
+      show: 'wallet',
+      clickWallet: true,
+      clickActivity: false,
+      clickHome: false,
+      clickEarn: false,
+      clickMarket: false
+    });
   }
 
   render(){
+    let click_classHome = this.state.clickHome ? "center tc" : "center tc o-20";
+    let click_classActivity = this.state.clickActivity ? "center tc" : "center tc o-20";
+    let click_classEarn = this.state.clickEarn ? "center tc" : "center tc o-20";
+    let click_classWallet = this.state.clickWallet ? "center tc" : "center tc o-20";
+    let click_classMarket = this.state.clickMarket ? "center tc" : "center tc o-20";
     return(
       <div className="">
         <div className="flex items-start">
@@ -58,26 +91,26 @@ class App extends Component {
         { this.state.show == "home" && <Home /> }
         { this.state.show == "market" && <Market /> }
         { this.state.show == "wallet" && <Wallet /> }
-        <div className="">
+        <div className="footer">
           <div className="pa3 bg-moon-gray"></div>
             <div className="flex justify-around center mt2">
-              <div className="center tc" onClick={this.showHome}>
+              <div className={click_classHome} onClick={this.showHome}>
                 <img src={home_logo} className="w2 h2"/>
                 <h4 className="mt0">Home</h4>
               </div>
-              <div className="center tc" onClick={this.showActivity}>
+              <div className={click_classActivity} onClick={this.showActivity}>
                 <img src={activity_logo} className="w2 h2"/>
                 <h4 className="mt0">Activity</h4>
               </div>
-              <div className="center tc" onClick={this.showWallet}>
+              <div className={click_classWallet} onClick={this.showWallet}>
                 <img src={wallet_logo} className="w2 h2"/>
                 <h4 className="mt0">Wallet</h4>
               </div>
-              <div className="center tc" onClick={this.showMarket}>
+              <div className={click_classMarket} onClick={this.showMarket}>
                 <img src={market_logo} className="w2 h2"/>
                 <h4 className="mt0">Market</h4>
               </div>
-              <div className="center tc" onClick={this.showEarn}>
+              <div className={click_classEarn} onClick={this.showEarn}>
                 <img src={earn_logo} className="w2 h2"/>
                 <h4 className="mt0">Earn</h4>
               </div>
