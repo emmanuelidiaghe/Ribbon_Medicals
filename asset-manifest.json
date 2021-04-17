@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Ribbon_Medicals/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/Ribbon_Medicals/static/js/main.7573b4a0.chunk.js",
+    "main.js.map": "/Ribbon_Medicals/static/js/main.7573b4a0.chunk.js.map",
+    "runtime-main.js": "/Ribbon_Medicals/static/js/runtime-main.ad2cc409.js",
+    "runtime-main.js.map": "/Ribbon_Medicals/static/js/runtime-main.ad2cc409.js.map",
+    "static/css/2.31461e4f.chunk.css": "/Ribbon_Medicals/static/css/2.31461e4f.chunk.css",
+    "static/js/2.1f7faec0.chunk.js": "/Ribbon_Medicals/static/js/2.1f7faec0.chunk.js",
+    "static/js/2.1f7faec0.chunk.js.map": "/Ribbon_Medicals/static/js/2.1f7faec0.chunk.js.map",
+    "index.html": "/Ribbon_Medicals/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/Ribbon_Medicals/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.ea1455b2.chunk.css.map": "/Ribbon_Medicals/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.1f7faec0.chunk.js.LICENSE.txt": "/Ribbon_Medicals/static/js/2.1f7faec0.chunk.js.LICENSE.txt",
+    "static/media/earn.61fdd670.png": "/Ribbon_Medicals/static/media/earn.61fdd670.png",
+    "static/media/hiv_logo.24af602e.png": "/Ribbon_Medicals/static/media/hiv_logo.24af602e.png",
+    "static/media/logo.03a98cfb.svg": "/Ribbon_Medicals/static/media/logo.03a98cfb.svg",
+    "static/media/lungs.8e78ae46.png": "/Ribbon_Medicals/static/media/lungs.8e78ae46.png",
+    "static/media/market.7f053dd5.png": "/Ribbon_Medicals/static/media/market.7f053dd5.png",
+    "static/media/pressure.30906727.jpg": "/Ribbon_Medicals/static/media/pressure.30906727.jpg",
+    "static/media/profile.77f91f11.jpg": "/Ribbon_Medicals/static/media/profile.77f91f11.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad2cc409.js",
+    "static/css/2.31461e4f.chunk.css",
+    "static/js/2.1f7faec0.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.7573b4a0.chunk.js"
+  ]
+}
