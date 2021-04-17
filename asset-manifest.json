@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Ribbon_Medicals/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/Ribbon_Medicals/static/js/main.7573b4a0.chunk.js",
-    "main.js.map": "/Ribbon_Medicals/static/js/main.7573b4a0.chunk.js.map",
+    "main.js": "/Ribbon_Medicals/static/js/main.8915dbc7.chunk.js",
+    "main.js.map": "/Ribbon_Medicals/static/js/main.8915dbc7.chunk.js.map",
     "runtime-main.js": "/Ribbon_Medicals/static/js/runtime-main.ad2cc409.js",
     "runtime-main.js.map": "/Ribbon_Medicals/static/js/runtime-main.ad2cc409.js.map",
     "static/css/2.31461e4f.chunk.css": "/Ribbon_Medicals/static/css/2.31461e4f.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.1f7faec0.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.7573b4a0.chunk.js"
+    "static/js/main.8915dbc7.chunk.js"
   ]
 }
